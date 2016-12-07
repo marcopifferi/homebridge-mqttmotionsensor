@@ -1,0 +1,36 @@
+{
+  "name": "homebridge-mqttmotionsensor",
+  "version": "0.0.1",
+  "description": "Homebridge plugin for MQTT Motion Sensor",
+  "note": "peerDependencies is hardcoded to peerDepdendencies in homebridge!!!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "echo \"Error: configure and run homebridge to start\" && exit 1"
+  },
+  "engines": {
+    "node": ">4.0.0",
+    "homebridge": ">=0.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/marcopifferi/homebridge-mqttmqttmotionsensor"
+  },
+  "keywords": [
+    "homebridge-plugin",
+    "MQTT",
+    "homekit",
+    "Siri",
+    "IoT",
+    "Switch"
+  ],
+  "dependencies": {
+    "mqtt": "^1.6.3"
+  },
+  "author": "marcopifferi",
+  "license": "GPL2",
+  "bugs": {
+    "url": "https://github.com/marcopifferi/homebridge-mqttmqttmotionsensor/issues"
+  },
+  "homepage": "https://github.com/marcopifferi/homebridge-mqttmqttmotionsensor"
+}
